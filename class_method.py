@@ -23,9 +23,9 @@ class MyClass:
 		They work like regular functions but belong to 
 		the class's namespace.
 		"""
-	return 'static method called'
+		return 'static method called'
 
 obj = MyClass()
-obj.method()
-obj.classmethod()
-obj.staticmethod()
+print(obj.method())
+print(obj.classmethod())
+print(obj.staticmethod())
